@@ -4,4 +4,4 @@ services:
   q:
     build: .
     volumes: 
-      - ${PWD}/files:/q
+      - ${PWD}:/q
